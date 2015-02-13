@@ -157,7 +157,7 @@ from GitHub, or merge the branch into your existing repository. Assuming you're
 starting from scratch, simply clone this repository using git:
 
 ```sh
-$ git clone git://github.com/joshdmiller/ng-boilerplate my-project-name
+$ git clone git://github.com/krainet/KRAngular my-project-name
 $ cd my-project-name
 ```
 
@@ -371,7 +371,7 @@ Naturally, I am open to all manner of ideas and suggestions. See the
 
 ### To Do
 
-See the [issues list](http://github.com/joshdmiller/ng-boilerplate/issues). And
+See the [issues list](http://github.com/krainet/KRAngular). And
 feel free to submit your own!
 
 ### Contributing
