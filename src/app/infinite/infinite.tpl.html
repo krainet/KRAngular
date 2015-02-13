@@ -1,0 +1,39 @@
+<h1>KRAngular - NCC1701 Enterprise</h1>
+
+<p>Code it up for module : <strong>{{model.pageTitle}}</strong></p>
+
+
+<button class="btn btn-primary" ng-click="" ui-sref="root.home">go Home</button>
+<p>&nbsp;</p>
+
+<div infinite-scroll='scroll.loadMore()' infinite-scroll-disabled='scroll.loading' infinite-scroll-distance='0'>
+    <div ng-repeat='item in scroll.items'>
+        <div>{{item.name}}</div>
+        <div>
+            <img src="http://lorempixel.com/400/200/sports/{{item.name}}" style="max-width:100%;height:auto;">
+        </div>
+        <div style='clear: both;'></div>
+        <p>&nbsp;</p>
+    </div>
+    <div ng-show='scroll.loading' style="text-align: center">
+        <div id="circularG">
+            <div id="circularG_1" class="circularG">
+            </div>
+            <div id="circularG_2" class="circularG">
+            </div>
+            <div id="circularG_3" class="circularG">
+            </div>
+            <div id="circularG_4" class="circularG">
+            </div>
+            <div id="circularG_5" class="circularG">
+            </div>
+            <div id="circularG_6" class="circularG">
+            </div>
+            <div id="circularG_7" class="circularG">
+            </div>
+            <div id="circularG_8" class="circularG">
+            </div>
+        </div>
+        <div id="loading">Loading ...</div>
+    </div>
+</div>

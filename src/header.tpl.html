@@ -1,0 +1,56 @@
+<header>
+    <div  class="navbar navbar-default navbar-static-top" role="navigation">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" ng-init="navCollapsed = true" ng-click="navCollapsed = !navCollapsed">
+                    <span class="sr-only">Navigation Bar</span>
+                    <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand" ui-sref="root.home"><li class="fa fa-home"></li></a>
+            </div>
+            <div class="navbar-collapse collapse navbar-responsive-collapse" collapse="navCollapsed">
+                <ul class="nav navbar-nav navbar-right">
+                    <li ui-sref-active="active">
+                        <a ui-sref="root.home" ng-click="navCollapsed = !navCollapsed">
+                            <i class="fa fa-home"></i>
+                            Home</a>
+                    </li>
+                    <li class="dropdown" dropdown>
+                        <a href="#" dropdown-toggle><i class="fa fa-cog"></i>  Tools <b class="caret"></b></a>
+                        <ul class="dropdown-menu" role="menu" ng-click="navCollapsed = true">
+                            <li ui-sref-active="active">
+                                <a ui-sref="root.auth" ng-click="navCollapsed = !navCollapsed">
+                                    <i class="fa fa-sign-in"></i>
+                                    Social Login</a>
+                            </li>    
+                            <li ui-sref-active="active">
+                                <a ui-sref="root.animate" ng-click="navCollapsed = !navCollapsed">
+                                    <i class="fa fa-search"></i> 
+                                    Animations</a>
+                            </li>
+                            <li ui-sref-active="active">
+                                <a ui-sref="root.infinite" ng-click="navCollapsed = !navCollapsed">
+                                    <i class="fa fa-th"></i>
+                                    InfiniteScroll</a>
+                            </li>
+                            <!-- <li class="divider"></li> -->
+                            <li ui-sref-active="active">
+                                <a ui-sref="root.apitest" ng-click="navCollapsed = !navCollapsed">
+                                    <i class="fa fa-gears"></i> 
+                                    Api request Example</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li ui-sref-active="active" ng-click="navCollapsed = !navCollapsed">                            
+                        <a ui-sref="root.about">
+                            <i class="fa fa-angellist"></i> 
+                            About</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+
+</header>

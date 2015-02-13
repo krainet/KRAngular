@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html ng-app="KRAngular" ng-controller="AppController">
+    <head>
+        <!-- Base href to remove hashtag from URL -->
+        <base href="/">
+        
+        <title ng-bind="pageTitle"></title>
+
+        <!-- Font awesome -->
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+        <!-- compiled CSS --><% styles.forEach( function ( file ) { %>
+        <link rel="stylesheet" type="text/css" href="<%= file %>" /><% }); %>
+
+        <!-- compiled JavaScript --><% scripts.forEach( function ( file ) { %>
+        <script type="text/javascript" src="<%= file %>"></script><% }); %>
+        
+    </head>
+
+
+    <body>
+        <!-- <div class="container menu" ui-view="main"></div> -->
+        <div ui-view="header" class=""></div>
+        <div class="container" style="text-align: center;">
+            <div ui-view="container" class="well" style="width:98%;"></div>
+        </div>
+        <div ui-view="footer" class="" style="margin-top:20px"></div>       
+    </body>
+</html>

@@ -1,0 +1,12 @@
+{
+    "attributes": {
+        "ui-sref": {},
+        "ui-view": {},
+        "ui-sref-active": {},
+        "dropdown-toggle": {}
+    },
+    "elements": {
+        "li": {},
+        "ul": {}
+    }
+}

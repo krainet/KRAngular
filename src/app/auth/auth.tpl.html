@@ -1,0 +1,29 @@
+<h1>KRAngular - NCC1701 Enterprise</h1>
+
+<p>Code it up for module : <strong>{{model.pageTitle}}</strong></p>
+
+<button type="button" class="btn btn-primary" id="login" ng-click="login()">
+        <i class="fa fa-facebook-official"></i> Login with Facebook
+</button>
+<button type="button" class="btn btn-primary" id="api" ng-click="api()">
+    <i class="fa fa-user"></i> Get Username from Api
+</button>
+<button type="button" class="btn btn-primary" id="remove_auth" ng-click="removeAuth()">
+    <i class="fa fa-sign-out"></i> Log Out
+</button>
+
+<p>&nbsp;</p>
+
+<pre>isReady: <span id="is_ready" ng-bind="facebookIsReady"></span></pre>
+<pre>status: <span id="login_status" ng-bind="loginStatus"></span></pre>
+<pre>
+    <span>Username:</span>
+    <span id="api_first_name" ng-bind="user.first_name"></span>
+    <span id="api_first_name" ng-bind="user.email"></span>
+</pre>
+
+
+<p>&nbsp;</p>
+<button class="btn btn-warning" ng-click="" ui-sref="root.home">go Home</button>
+
+<p>&nbsp;</p>
