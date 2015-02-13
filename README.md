@@ -19,6 +19,7 @@ Based on [ngBoilerplate] (https://github.com/ngbp/ngbp)
 - Example of facebook-login (see /src/README.md to test it)
 - BootstrapUI (Bootstrap components written in pure AngularJS by the AngularUI Team)
 - FontAwesome included as dependency (updatable)
+- Example of Interceptor to use your own cookies in headers (capturing req-resp)
 
 
 ## Quick Start
