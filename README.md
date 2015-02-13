@@ -2,7 +2,7 @@
 
 Base project with [AngularJS](http://angularjs.org) modularized with amazing features
 
-Based on [KRAngular] (https://github.com/ngbp/ngbp)
+Based on [ngBoilerplate] (https://github.com/ngbp/ngbp)
 - Upgrading all soft versions and including some usefull examples to start your projects witn AngularJS
 ***
 
