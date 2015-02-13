@@ -17,7 +17,7 @@ Based on [ngBoilerplate] (https://github.com/ngbp/ngbp)
 - Example of ngInfiniteScroll running with dummy REMOTE images
 - Example of api connection
 - Example of facebook-login (see /src/README.md to test it)
-- BootstrapUI (Bootstrap components written in pure AngularJS by the AngularUI Team)
+- AngularUI (Bootstrap components written in pure AngularJS by the AngularUI Team)
 - FontAwesome included as dependency (updatable)
 - Example of Interceptor to use your own cookies in headers (capturing req-resp)
 
@@ -46,7 +46,7 @@ Happy hacking!
 
 ## Purpose
 
-`KRAngular` is designed to make life easy by providing a basic framework
+`KRAngular` is a modified `ngBoilerplate` and is designed to make life easy by providing a basic framework
 with which to kickstart AngularJS projects. It contains a best-practice
 directory structure to ensure code reusability and maximum scalability.
 KRAngular also comes prepackaged with the most popular design frameworks
@@ -114,7 +114,6 @@ ng-boilerplate/
   |  |- placeholders/
   |- .bowerrc
   |- bower.json
-  |- build.config.js
   |- Gruntfile.js
   |- module.prefix
   |- module.suffix
@@ -129,18 +128,13 @@ learn more.
 - `src/` - our application sources. [Read more &raquo;](src/README.md)
 - `vendor/` - third-party libraries. [Bower](http://bower.io) will install
   packages here. Anything added to this directory will need to be manually added
-  to `build.config.js` and `karma/karma-unit.js` to be picked up by the build
+  to `Gruntfile.js` and `karma/karma-unit.js` to be picked up by the build
   system.
 - `.bowerrc` - the Bower configuration file. This tells Bower to install
   components into the `vendor/` directory.
 - `bower.json` - this is our project configuration for Bower and it contains the
   list of Bower dependencies we need.
-- `build.config.js` - our customizable build settings; see "The Build System"
-  below.
 - `Gruntfile.js` - our build script; see "The Build System" below.
-- `module.prefix` and `module.suffix` - our compiled application script is
-  wrapped in these, which by default are used to place the application inside a
-  self-executing anonymous function to ensure no clashes with other libraries.
 - `package.json` - metadata about the app, used by NPM and our build script. Our
   NPM dependencies are listed here.
 
@@ -387,7 +381,7 @@ Naturally, I am open to all manner of ideas and suggestions. See the
 
 ### To Do
 
-See the [issues list](http://github.com/krainet/KRAngular). And
+See the [issues list](http://github.com/krainet/KRAngular/issues). And
 feel free to submit your own!
 
 ### Contributing
