@@ -10,7 +10,7 @@ src/
   |- app/
   |  |- about/
   |  |- home/
-  |  |- some-examples .../
+  |  |- some-module-examples .../
   |  |- app.js
   |  |- app.spec.js
   |- assets/

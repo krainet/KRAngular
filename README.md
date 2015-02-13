@@ -6,6 +6,21 @@ Based on [ngBoilerplate] (https://github.com/ngbp/ngbp)
 - Upgrading all soft versions and including some usefull examples to start your projects witn AngularJS
 ***
 
+## New Features
+
+- Using connect instade of express server for local development
+- Using connect middleware (connect-rewrite) to remove '#' from url's
+- UI-router using rootview and nested-views for all modules
+- UI-router resolve to load data before load states (very usefull)
+- ngAnnotate (to prevent error: unknow a->Provider)
+- Examples of ngAnimate applyed in all project
+- Example of ngInfiniteScroll running with dummy REMOTE images
+- Example of api connection
+- Example of facebook-login (see /src/README.md to test it)
+- BootstrapUI (Bootstrap components written in pure AngularJS by the AngularUI Team)
+- FontAwesome included as dependency (updatable)
+
+
 ## Quick Start
 
 Install Node.js and then:
