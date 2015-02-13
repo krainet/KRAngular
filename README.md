@@ -21,7 +21,9 @@ $ grunt watch
 
 Finally, open `file:///path/to/KRAngular/build/index.html` in your browser.
 
-To try some features (angular-facebook) try to setup 127.0.0.1 krangular.com in your hosts file
+To try some features (angular-facebook) try to setup 127.0.0.1 krangular.com in your hosts file and 
+start your browser with url http://krangular.com:9000/
+
 
 
 Happy hacking!
