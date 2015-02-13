@@ -41,6 +41,14 @@ the header and footer. It declares with `ngApp` that this is `KRAngular`,
 specifies the main `AppController` controller, and contains the `ngView` directive
 into which route templates are placed.
 
+For more usable projects, we are modified base-views from ngBoilerplate. And now
+KRAngular insert 3 views in index.html: 
+
+index.html now includes 3 view's with 3 controllers:
+- header FrontController
+- container xxxController
+- footer FooterController
+
 Unlike any other HTML document (e.g. the templates), `index.html` is compiled as
 a Grunt template, so variables from `Gruntfile.js` and `package.json` can be
 referenced from within it. Changing `name` in `package.json` from

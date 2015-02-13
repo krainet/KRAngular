@@ -94,6 +94,33 @@ not specific to the template or route, such as menu logic or page title wiring.
 })
 ```
 
+## `animate`
+
+Gracefull example of ngAnimate applied in all project in stateChanges and 2 examples of use.
+
+## `apitest`
+
+A little test of connection to JSon api.
+
+## `auth`
+
+Auth system based on facebook (angular-facebook module)
+You need to set '127.0.0.1 krangular.com' in your 'hosts' and use 'grunt watch'.
+If you access to http://krangular.com:9000/ you will be able to login with facebook
+and recover your profile :)
+** My example facebook app is prepared to allow krangular.com
+
+## `infinite`
+
+An example of use of ngInfiniteScroll.
+Getting remote dummy images :D
+
+## `uibootstrap`
+
+Example of ui-bootstrap
+Bootstrap components written in pure AngularJS by the AngularUI Team
+
+
 ### Testing
 
 One of the design philosophies of `KRAngular` is that tests should exist
