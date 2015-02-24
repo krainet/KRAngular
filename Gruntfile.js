@@ -429,7 +429,7 @@ module.exports = function (grunt) {
             devServer: {
                 options: {
                     port: 9000,
-                    hostname: 'krangular.com',
+                    hostname: 'localhost',
                     serverreload: false,
                     base: 'build',
                     livereload: true,
