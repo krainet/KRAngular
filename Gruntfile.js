@@ -441,7 +441,6 @@ module.exports = function (grunt) {
                         var middlewares = [];
                         // enable Angular's HTML5 mode
                         middlewares.push(modRewrite(['!\\.html|\\.js|\\.svg|\\.css|\\.png|\\.jpg|\\.ttf|\\.woff|\\.svg /index.html [L]']));
-                        middlewares.push(modRewrite(['!\\.html|\\.js|\\.svg|\\.css|\\.png$ /index.html [L]']));
                         if (!Array.isArray(options.base)) {
                             options.base = [options.base];
                         }
